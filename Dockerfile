@@ -15,8 +15,13 @@ RUN CGO_ENABLED=0 go build -o webhook -ldflags '-w -extldflags "-static"' .
 
 FROM registry.access.redhat.com/ubi8/ubi-minimal
 
-COPY --from=build /workspace/webhook /opt/webhook
+WORKDIR /opt/webhook
+
+COPY --from=build --chown=1001 /workspace/webhook /opt/webhook/webhook
+
+RUN chown 1001 /opt/webhook
+RUN chmod 700 /opt/webhook
 
 USER 1001
 
-ENTRYPOINT ["/opt/webhook"]
+ENTRYPOINT ["/opt/webhook/webhook", "--secure-port", "8443"]

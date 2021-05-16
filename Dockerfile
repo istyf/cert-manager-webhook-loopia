@@ -1,6 +1,4 @@
-FROM golang:1.16.2-alpine3.13 AS build_deps
-
-RUN apk add --no-cache git
+FROM golang:1.16.4 AS build_deps
 
 WORKDIR /workspace
 
@@ -15,10 +13,10 @@ COPY . .
 
 RUN CGO_ENABLED=0 go build -o webhook -ldflags '-w -extldflags "-static"' .
 
-FROM alpine:3.13
+FROM registry.access.redhat.com/ubi8/ubi-minimal
 
-RUN apk add --no-cache ca-certificates
+COPY --from=build /workspace/webhook /opt/webhook
 
-COPY --from=build /workspace/webhook /usr/local/bin/webhook
+USER 1001
 
-ENTRYPOINT ["webhook"]
+ENTRYPOINT ["/opt/webhook"]

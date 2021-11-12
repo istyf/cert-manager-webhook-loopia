@@ -1,4 +1,4 @@
-FROM golang:1.16.4 AS build_deps
+FROM golang:1.17 AS build_deps
 
 WORKDIR /workspace
 

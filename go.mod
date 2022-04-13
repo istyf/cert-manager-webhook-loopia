@@ -5,9 +5,9 @@ go 1.18
 require (
 	github.com/jetstack/cert-manager v1.3.1
 	github.com/johanhenriksson/loopia-go v0.0.0-20220315153334-b0a2bf313e79
-	k8s.io/apiextensions-apiserver v0.20.15
-	k8s.io/apimachinery v0.20.15
-	k8s.io/client-go v0.20.15
+	k8s.io/apiextensions-apiserver v0.19.10
+	k8s.io/apimachinery v0.19.10
+	k8s.io/client-go v0.19.10
 	k8s.io/klog v1.0.0
 )
 
@@ -76,9 +76,9 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	k8s.io/api v0.20.15 // indirect
-	k8s.io/apiserver v0.20.15 // indirect
-	k8s.io/component-base v0.20.15 // indirect
+	k8s.io/api v0.19.10 // indirect
+	k8s.io/apiserver v0.19.10 // indirect
+	k8s.io/component-base v0.19.10 // indirect
 	k8s.io/klog/v2 v2.9.0 // indirect
 	k8s.io/kube-aggregator v0.19.0 // indirect
 	k8s.io/kube-openapi v0.0.0-20211110013926-83f114cd0513 // indirect

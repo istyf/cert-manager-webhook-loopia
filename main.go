@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	cmmeta "github.com/jetstack/cert-manager/pkg/apis/meta/v1"
-	loopia "github.com/jonlil/loopia-go"
+	loopia "github.com/johanhenriksson/loopia-go"
 	extapi "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"

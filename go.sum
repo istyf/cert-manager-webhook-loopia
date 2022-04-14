@@ -329,10 +329,10 @@ github.com/jetstack/cert-manager v1.3.1 h1:B2dUYeBzo/ah7d8Eo954oFuffCvthliIdaeBI
 github.com/jetstack/cert-manager v1.3.1/go.mod h1:Hfe4GE3QuRzbrsuReQD5R3PXZqrdfJ2kZ42K67V/V0w=
 github.com/jmespath/go-jmespath v0.4.0/go.mod h1:T8mJZnbsbmF+m6zOOFylbeCJqk5+pHWvzYPziyZiYoo=
 github.com/jmespath/go-jmespath/internal/testify v1.5.1/go.mod h1:L3OGu8Wl2/fWfCI6z80xFu9LTZmf1ZRjMHUOPmWr69U=
+github.com/johanhenriksson/loopia-go v0.0.0-20220315153334-b0a2bf313e79 h1:g/6cGUfO9HnVJl58uiOfVPVYNwbF9eRIPmP8Z7HJSgs=
+github.com/johanhenriksson/loopia-go v0.0.0-20220315153334-b0a2bf313e79/go.mod h1:LB5wk2zq90Xibz+OLJRETIAOeEr4P/13Un3JjXWkD10=
 github.com/jonboulle/clockwork v0.1.0 h1:VKV+ZcuP6l3yW9doeqz6ziZGgcynBVQO+obU0+0hcPo=
 github.com/jonboulle/clockwork v0.1.0/go.mod h1:Ii8DK3G1RaLaWxj9trq07+26W01tbo22gdxWY5EU2bo=
-github.com/jonlil/loopia-go v0.0.0-20210527200300-23293e4c6c36 h1:dDla7M09HPLLoRomdOO9ATz0tSZS/ADjEI9ZU3REPhs=
-github.com/jonlil/loopia-go v0.0.0-20210527200300-23293e4c6c36/go.mod h1:Vkp4MTf4Pb8Lu5zPQSQB777pyKa2AJcJPBd7lLp/aNY=
 github.com/json-iterator/go v1.1.6/go.mod h1:+SdeFBvtyEkXs7REEP0seUULqWtbJapLOCVDaaPEHmU=
 github.com/json-iterator/go v1.1.7/go.mod h1:KdQUCv79m/52Kvf8AW2vK1V8akMuk1QjK/uOdHXbAo4=
 github.com/json-iterator/go v1.1.8/go.mod h1:KdQUCv79m/52Kvf8AW2vK1V8akMuk1QjK/uOdHXbAo4=
